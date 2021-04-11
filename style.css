@@ -138,10 +138,6 @@ footer {
     grid-area: footer;
 }
 
-.footer {
-    background-image: linear-gradient(to bottom, #F0ECEB, rgba(220, 106, 38, 0.7));
-}
-
 footer section {
     padding: 1em 0;
 }
