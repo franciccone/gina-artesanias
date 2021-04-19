@@ -8,6 +8,7 @@
 	<title>Gina Artesanías</title>
 	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	<link rel="stylesheet" href="../style.css">
 </head>
 
@@ -29,12 +30,12 @@
 
 		<nav class="menu">
 			<ul class="menu-list">
-				<li class="menu-item"><a href="../index.html">Inicio</a></li>
-				<li class="menu-item"><a href="novedades.html">Novedades</a></li>
-				<li class="menu-item"><a href="masproductos.html">Más productos</a></li>
-				<li class="menu-item"><a href="nosotros.html">Nosotros</a></li>
-				<li class="menu-item here"><a href="contacto.html">Contacto</a></li>
-				<li class="menu-item"><a href="masproductos.html">
+				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="../index.html">Inicio</a></li>
+				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="novedades.html">Novedades</a></li>
+				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="masproductos.html">Más productos</a></li>
+				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="nosotros.html">Nosotros</a></li>
+				<li class="menu-item here"><a class="link-gina text-decoration-none text-reset" href="contacto.html">Contacto</a></li>
+				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="masproductos.html">
 					<span class="iconify icon-header" data-icon="fa-solid:shopping-cart" data-inline="false"></span>
 				</a></li>
 			</ul>
@@ -52,37 +53,56 @@
 
 		<!-- CONTACT FORM | START -->
 
-        <section class="center">
+        <section class="container center">
 
 		<div class="pages-titles">
 			<h1>Envianos tu opinión</h1>
 		</div>
 
-        <form action="" method="GET">
-            <fieldset class="form">
-                <label for="name">Nombre*:</label>
-                <input type="text" name="name" id="name" placeholder="Nombre" required>
-
-                <label for="email">Correo electrónico*:</label>
-                <input type="email" name="email" id="email" placeholder="nombre@ejemplo.com" required>
-            </fieldset>
-
-            <fieldset class="form">
-                <label for="opinion"></label>
-                <textarea name="opinion" id="opinion" cols="30" rows="10" style="resize: none" placeholder="Tu mensaje*" required></textarea>
-            </fieldset>
-
-			<label for="newsletter">
-				<input type="checkbox" value="1" id="newsletter">
-				Quiero recibir novedades y promociones
-			</label>
-
-			<div class="contact-button">
-				<input type="reset" value="Borrar el formulario">
-				<input type="submit" value="Enviar">
+		<form>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Nombre</label>
+				<input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
 			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Dirección de E-Mail</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlTextarea1">Tu mensaje</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+			</div>
+			<div class="form-group">
+				<input class="btn btn-danger" type="reset" value="Borrar">
+				<input class="btn btn-success" type="submit" value="Enviar" data-toggle="modal" data-target="#exampleModal">
+			</div>
+		</form>
 
-        </form>
+		<div class="form-group">
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+				Hacé click
+			</button>
+		</div>
+
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Muchas gracias</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						Gracias por escribirnos. Nos pondremos en contacto a la brevedad.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
         </section>
 
 		<!-- CONTACT FORM | END -->
@@ -107,10 +127,10 @@
 
 		<section class="footer-menu">
 			<ul>
-				<li><a href="nosotros.html">Sobre nosotros</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
-				<li><a href="formasdepagoyenvio.html">Formas de pago y envío</a></li>
-				<li><a href="terminosycondiciones.html">Términos y condiciones</a></li>
+				<li><a class="link-gina text-decoration-none text-reset" href="nosotros.html">Sobre nosotros</a></li>
+				<li><a class="link-gina text-decoration-none text-reset" href="contacto.html">Contacto</a></li>
+				<li><a class="link-gina text-decoration-none text-reset" href="formasdepagoyenvio.html">Formas de pago y envío</a></li>
+				<li><a class="link-gina text-decoration-none text-reset" href="terminosycondiciones.html">Términos y condiciones</a></li>
 			</ul>
 		</section>
 
@@ -138,6 +158,9 @@
 	</footer>
 
 	<!-- FOOTER | END -->
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 </body>
 

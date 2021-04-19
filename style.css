@@ -29,6 +29,12 @@
     border: 1px solid var(--color-white);
 }
 
+.link-gina {
+    font-weight: 500;
+    color: var(--color-black);
+    text-decoration: none;
+}
+
 .menu-list a.here,
 .menu-list a:hover {
     background: rgba(243, 203, 123, 0.7);
@@ -197,14 +203,12 @@ footer img {
     grid-area: title;
     display: flex;
     justify-content: center;
-    /* width: 100%; */
 }
 
 .us-first-row {
     grid-area: first-row;
     display: flex;
     justify-content: center;
-    /* width: 100%; */
     margin-bottom: 2em;
 }
 
@@ -212,7 +216,6 @@ footer img {
     grid-area: second-row;
     display: flex;
     justify-content: center;
-    /* width: 100%; */
     margin-bottom: 2em;
 }
 
@@ -299,42 +302,42 @@ section .cta-news {
 
 /* ---------- INDEX | MÁS PRODUCTOS ---------- */
 
-section.products .container {
+section.products .container-products {
     display: flex;
     justify-content: center;
     align-content: center;
     margin: 0 0 1em 0;
 }
 
-section.products .row {
+section.products .row-products {
     margin: 0 0.4em;
 }
 
-section.products .row img {
+section.products .row-products img {
     width: 100%;
     max-width: 250px;
     height: auto;
     margin: 1em 0 0 0;
 }
 
-section.products .row .row-txt {
+section.products .row-products .row-txt-products {
     text-align: center;
 }
 
-section.products .row .row-txt h3 {
+section.products .row-products .row-txt-products h3 {
     text-align: center;
     text-transform: uppercase;
     padding: 0.5em 0;
 }
 
-section.products .row .row-txt a {
+section.products .row-products .row-txt-products a {
     font-size: 1rem;
     margin: 0.5em 0 1em 0;
 }
 
 /* ---------- OTHER ---------- */
 
-section.products .row-txt h2 {
+section.products .row-txt-products h2 {
     text-align: center;
     text-transform: uppercase;
     padding: 0.5em 0;
