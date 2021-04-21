@@ -180,7 +180,7 @@ footer img {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(5, auto);
-    grid-template-areas: 
+    grid-template-areas:
         "header header"
         "title title"
         "main main"
@@ -193,7 +193,7 @@ footer img {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: 
+    grid-template-areas:
         "title title"
         "first-row first-row"
         "second-row second-row";
