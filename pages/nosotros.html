@@ -8,6 +8,7 @@
 	<title>Gina Artesanías</title>
 	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	<link rel="stylesheet" href="../style.css">
 </head>
 
@@ -19,30 +20,44 @@
 
 	<header class="header">
 
-		<!-- HEADER | LOGO | START -->
+		<div class="container-fluid">
 
-		<div class="logo">
-			<a href="../index.html"><img src="../media/logo.png" class="logo" alt="GinaArtesanias"></a>
+			<nav class="navbar navbar-expand-lg">
+
+				<a class="navbar-brand img-fluid" href="../index.html">
+					<img class="logo-header" src="../media/logo.png" alt="Gina Artesanías">
+				</a>
+
+				<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon navbar-light"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link link-gina" href="../index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link link-gina" href="novedades.html">Novedades</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link link-gina" href="masproductos.html">Productos</a>
+						</li>
+						<li class="nav-item active">
+								<a class="nav-link link-gina" href="nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link link-gina" href="contacto.html">Contacto</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link link-gina" href="masproductos.html"> <span class="iconify icon-header" data-icon="fa-solid:shopping-cart" data-inline="false"></span></a>
+						</li>
+					</ul>
+				</div>
+
+			</nav>
+
 		</div>
-
-		<!-- HEADER | LOGO | END -->
-
-		<!-- HEADER | NAVIGATION MENU | START -->
-
-		<nav class="menu">
-			<ul class="menu-list">
-				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="../index.html">Inicio</a></li>
-				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="novedades.html">Novedades</a></li>
-				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="masproductos.html">Más productos</a></li>
-				<li class="menu-item here"><a class="link-gina text-decoration-none text-reset" href="nosotros.html">Nosotros</a></li>
-				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="contacto.html">Contacto</a></li>
-				<li class="menu-item"><a class="link-gina text-decoration-none text-reset" href="masproductos.html">
-					<span class="iconify icon-header" data-icon="fa-solid:shopping-cart" data-inline="false"></span>
-				</a></li>
-			</ul>
-		</nav>
-
-		<!-- HEADER | NAVIGATION MENU | END -->
 
 	</header>
 
@@ -63,7 +78,7 @@
 		<div class="us-text-left">
             <p>¡Hola! Somos un proyecto familiar dedicado a pinturas, tejidos, muñecos y artesanías. Nos encontramos en Carmen de Patagones, provincia de Buenos Aires, y hacemos envíos a todo el país.</p>
 			
-			<p>El nombre del emprendimiento lo da nuestra perrita, Gina, que la adoptamos al mes de nacer luego de que pasara un tiempo en un hogar de tránsito.</p>
+			<p>El nombre del emprendimiento lo da nuestra perrita, Gina, a la que adoptamos al mes de nacer luego de que pasara un tiempo en un hogar de tránsito.</p>
 		</div>
 
 		<div class="img-right">
@@ -98,53 +113,64 @@
 
 	<!-- FOOTER | START -->
 
-	<footer class="footer">
+	<footer class="container-fluid footer">
 
-		<!-- FOOTER | LOGO | START -->
+		<div class="row justify-content-center">
 
-		<section class="footer-section-logo">
-			<a href="../index.html"><img src="../media/logo.png" class="logo logo-footer" alt="GinaArtesanias"></a>
-		</section>
+			<!-- FOOTER | LOGO | START -->
 
-		<!-- FOOTER | LOGO | END -->
+			<section class="footer-section-logo">
+				<a href="../index.html"><img src="../media/logo.png" class="logo logo-footer" alt="GinaArtesanias"></a>
+			</section>
 
-		<!-- FOOTER | MENU | START -->
+			<!-- FOOTER | LOGO | END -->
 
-		<section class="footer-menu">
-			<ul>
-				<li><a class="link-gina text-decoration-none text-reset" href="nosotros.html">Sobre nosotros</a></li>
-				<li><a class="link-gina text-decoration-none text-reset" href="contacto.html">Contacto</a></li>
-				<li><a class="link-gina text-decoration-none text-reset" href="formasdepagoyenvio.html">Formas de pago y envío</a></li>
-				<li><a class="link-gina text-decoration-none text-reset" href="terminosycondiciones.html">Términos y condiciones</a></li>
-			</ul>
-		</section>
+			<!-- FOOTER | MENU | START -->
 
-		<!-- FOOTER | MENU | END -->
+			<section class="footer-menu">
+				<ul>
+					<li><a class="link-gina text-decoration-none text-reset" href="nosotros.html">Sobre nosotros</a></li>
+					<li><a class="link-gina text-decoration-none text-reset" href="contacto.html">Contacto</a></li>
+					<li><a class="link-gina text-decoration-none text-reset" href="formasdepagoyenvio.html">Formas de pago y envío</a></li>
+					<li><a class="link-gina text-decoration-none text-reset" href="terminosycondiciones.html">Términos y condiciones</a></li>
+				</ul>
+			</section>
 
-		<!-- FOOTER | SOCIAL MEDIA | START -->
+			<!-- FOOTER | MENU | END -->
 
-		<section class="social-media">
-			<h3>Seguinos:</h3>
-			<ul class="social-media-link">
-				<li><a href="https://www.instagram.com/ginaartesanias/" target="_blank">
-					<span class="iconify icon-footer" data-icon="akar-icons:instagram-fill" data-inline="false"></span>
-				</a></li>
-				<li><a href="https://www.facebook.com/ginapatagones" target="_blank">
-					<span class="iconify icon-footer" data-icon="entypo-social:facebook" data-inline="false"></span>
-				</a></li>
-				<li><a href="#" target="_blank">
-					<span class="iconify icon-footer" data-icon="akar-icons:pinterest-fill" data-inline="false"></span>
-				</a></li>
-			</ul>
-		</section>
+			<!-- FOOTER | SOCIAL MEDIA | START -->
 
-		<!-- FOOTER | SOCIAL MEDIA | END -->
+			<section class="social-media">
+				<h3 class="social-media-title">Seguinos:</h3>
+				<ul class="social-media-link">
+					<li><a href="https://www.instagram.com/ginaartesanias/" target="_blank">
+						<span class="iconify icon-footer" data-icon="akar-icons:instagram-fill" data-inline="false"></span>
+					</a></li>
+					<li><a href="https://www.facebook.com/ginapatagones" target="_blank">
+						<span class="iconify icon-footer" data-icon="entypo-social:facebook" data-inline="false"></span>
+					</a></li>
+					<li><a href="mailto:ginaartesanias@gmail.com" target="_blank">
+						<span class="iconify icon-footer" data-icon="cib:gmail" data-inline="false"></span>
+					</a></li>
+				</ul>
+			</section>
+
+			<!-- FOOTER | SOCIAL MEDIA | END -->
+
+		</div>
 
 	</footer>
 
 	<!-- FOOTER | END -->
 
 </div>
+
+	<!-- BOOTSTRAP | SCRIPTS | START -->
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+	<!-- BOOTSTRAP | SCRIPTS | END -->
 
 </body>
 
