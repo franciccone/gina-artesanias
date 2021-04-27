@@ -70,7 +70,7 @@
 }
 
 html {
-    font-size: 1em;
+    font-size: 16px;
     font-family: 'Cabin', sans-serif;
 }
 
@@ -219,10 +219,14 @@ footer img {
 }
 
 .img-right {
+    display: flex;
+    flex-direction: column;
     max-width: 50%;
 }
 
 .img-left {
+    display: flex;
+    flex-direction: column;
     max-width: 50%;
 }
 
@@ -244,9 +248,7 @@ footer img {
     position: absolute;
     object-fit: cover;
     bottom: 0;
-    background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
     width: 100%;
     height: auto;
     padding: 20px;
@@ -307,6 +309,11 @@ section .cta-news {
     max-width: 250px;
     height: auto;
     margin: 1em 0 0 0;
+    transition: transform .2s;
+}
+
+.products img:hover {
+    transform: scale(1.1);
 }
 
 .txt-products {
@@ -349,10 +356,6 @@ section .cta-news {
     text-justify: inter-word;
 }
 
-.long-text {
-    margin: 0 12em 0 12em;
-}
-
 .img-news-section img {
     width: 100%;
     height: auto;
@@ -367,14 +370,6 @@ section .cta-news {
     margin: 0.5em 0;
 }
 
-.form {
-    margin: 0 20em;
-}
-
-.contact-button {
-    margin-bottom: 1.5em;
-}
-
 .center {
     text-align:center;
 }
@@ -385,4 +380,9 @@ section .cta-news {
 
 .right {
     text-align:right;
+}
+
+.long-text {
+    display: flex;
+    flex-direction: column;
 }
