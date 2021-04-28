@@ -1,0 +1,67 @@
+/* ---------- GRID ---------- */
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+        "header header"
+        "title title"
+        "main main"
+        "main main"
+        "footer footer";
+
+        .us-main {
+            grid-area: main;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(3, auto);
+            grid-template-areas:
+                "title title"
+                "first-row first-row"
+                "second-row second-row";
+        }
+        
+        .us-title {
+            grid-area: title;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .us-first-row {
+            grid-area: first-row;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2em;
+        }
+        
+        .us-second-row {
+            grid-area: second-row;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2em;
+        }
+        
+        .us-text-left {
+            max-width: 50%;
+            text-align: justify;
+        }
+        
+        .img-right {
+            display: flex;
+            flex-direction: column;
+            max-width: 50%;
+        }
+        
+        .img-left {
+            display: flex;
+            flex-direction: column;
+            max-width: 50%;
+        }
+        
+        .us-text-right {
+            max-width: 50%;
+            text-align: justify;
+        }
+
+}

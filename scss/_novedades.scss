@@ -1,0 +1,46 @@
+/* ---------- NOVEDADES ---------- */
+
+section h2 {
+    font-size: 3rem;
+
+    text: {
+        align: center;
+        transform: uppercase;
+    }
+
+}
+
+section.news {
+    text-align: center;
+}
+
+section.news .news-img {
+    margin: 0 1em;
+}
+
+section.news img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .cta-news {
+    border-style: solid;
+    margin: 0.8em 0 0.8em 0;
+}
+
+.img-news-section img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em 0 0 0;
+    padding: 0 1em;
+}
+
+.news-title-section {
+    margin: 0.5em 0;
+}

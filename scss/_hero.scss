@@ -1,0 +1,28 @@
+/* ---------- HERO ---------- */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 0;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-text {
+        position: absolute;
+        object-fit: cover;
+        bottom: 0;
+        background: $black-color;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 0 0 31px 0;
+    }
+
+}

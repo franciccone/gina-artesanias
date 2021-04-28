@@ -1,0 +1,70 @@
+/* ---------- TEXTS ---------- */
+
+.pages-titles {
+    margin: 1.5em 0;
+}
+
+.long-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-subtitles {
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+
+.paragraph {
+    margin: 0 0 0.8em 0;
+
+    text: {
+        align: center;
+        justify: inter-word;
+    }
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+
+    &__subtitles {
+        margin: 1em 0;
+        font-size: 1.5em;
+    }
+
+    &__paragraph {
+        margin: 0 0 0.8em 0;
+    
+        text: {
+            align: center;
+            justify: inter-word;
+        }
+    
+    }
+
+}
+
+@mixin colors($color, $bold) {
+    color: $color;
+    font-weight: $bold;
+}
+
+.prueba {
+
+    &__operaciones {
+        @include colors(black, bold);
+        font-size: $letra*2;
+    }
+
+    &__mixin {
+        @include colors(brown, bold);
+        font-size: ($letra/2)+10;
+    }
+
+    &__sass {
+        @include colors(black, bold);
+        font-size: ($letra/2)*1.5;
+    }
+
+}

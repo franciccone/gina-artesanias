@@ -1,0 +1,30 @@
+/* ---------- HEADER ---------- */
+
+header {
+    padding: 0.6em 0.6em;
+    grid-area: header;
+}
+
+.logo-header {
+        width: 100%;
+        max-width: 100px;
+        max-height: 84px;
+    }
+
+.navbar-nav {
+
+    .nav-link {
+        color: $black-color;
+    }
+
+    a.here,
+    a:hover {
+        background: rgba(243, 203, 123, 0.7);
+    }
+
+    li:first-of-type a.active,
+    li:first-of-type a:hover {
+        background: none;
+    }
+
+}
