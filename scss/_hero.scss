@@ -1,28 +1,9 @@
 /* ---------- HERO ---------- */
 
-.hero {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 0 0;
+.carousel {
+    margin: 0 1em;
+}
 
-    img {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero-text {
-        position: absolute;
-        object-fit: cover;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.5);
-        width: 100%;
-        height: auto;
-        padding: 20px;
-        margin: 0 0 31px 0;
-    }
-
+.carousel-title {
+    font-size: 4em;
 }

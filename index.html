@@ -32,7 +32,7 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active-index">
+						<li class="nav-item">
 							<a class="nav-link link-gina" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
@@ -67,12 +67,44 @@
 
 		<!-- HERO SECTION | START -->
 
-		<div class="hero">
-			<a href="pages/masproductos.html"><img class="news-img" src="media/hero-image.png" alt="Osito"></a>
-			<div class="hero-text">
-				<h1 class="hero-title">¡Ofertas de lanzamiento!</h1>
-				<a href="pages/masproductos.html" class="cta cta-hero">Comprar</a>
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-interval="1500">
+					<a href="pages/masproductos.html"><img src="media/osito-crochet-index.png" class="d-block w-100" alt="Osito de crochet"></a>
+					<div class="carousel-caption d-none d-md-block">
+						<h1 class="carousel-title">¡Ofertas de lanzamiento!</h1>
+					</div>
+				</div>
+				<div class="carousel-item" data-interval="1500">
+					<a href="pages/masproductos.html"><img src="media/cuadro-llama-index.png" class="d-block w-100" alt="Cuadro de llama"></a>
+					<div class="carousel-caption d-none d-md-block">
+						<h1 class="carousel-title">Ideales para comenzar el año</h1>
+					</div>
+				</div>
+				<div class="carousel-item" data-interval="1500">
+					<a href="pages/masproductos.html"><img src="media/accesorio-celular-index.png" class="d-block w-100" alt="Accesorios para celulares"></a>
+					<div class="carousel-caption d-none d-md-block">
+						<h1 class="carousel-title">¡Todo a menos de $2000!</h1>
+					</div>
+				</div>
 			</div>
+
+			<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Anterior</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Siguiente</span>
+			</a>
+
 		</div>
 
 		<!-- HERO SECTION | END -->

@@ -22,6 +22,9 @@ header {
     transform: scale(1.1);
     color: #000000; }
 
+.active {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 3px 3px 8px rgba(0, 0, 0, 0.19); }
+
 /* ---------- FOOTER ---------- */
 footer {
   display: flex;
@@ -64,26 +67,11 @@ footer {
   font-size: 1.8em; }
 
 /* ---------- HERO ---------- */
-.hero {
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin: 0 0; }
-  .hero img {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .hero .hero-text {
-    position: absolute;
-    object-fit: cover;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    margin: 0 0 31px 0; }
+.carousel {
+  margin: 0 1em; }
+
+.carousel-title {
+  font-size: 4em; }
 
 /* ---------- NOVEDADES ---------- */
 section h2 {
@@ -122,6 +110,9 @@ section .cta-news {
   align-items: center; }
   .img-news-section img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19); }
+
+.news-title {
+  font-size: 3em; }
 
 .news-title-section {
   margin: 0.5em 0; }
