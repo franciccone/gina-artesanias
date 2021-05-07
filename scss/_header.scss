@@ -6,25 +6,25 @@ header {
 }
 
 .logo-header {
-        width: 100%;
-        max-width: 100px;
-        max-height: 84px;
+    width: 100%;
+    max-width: 100px;
+    max-height: 84px;
+    transition: transform .2s;
+
+    &:hover {
+        transform: scale(1.1);
     }
 
-.navbar-nav {
+}
 
-    .nav-link {
+.nav-link {
+
+    text-transform: uppercase;
+    transition: transform .2s;
+
+    &:hover {
+        transform: scale(1.1);
         color: $black-color;
-    }
-
-    a.here,
-    a:hover {
-        background: rgba(243, 203, 123, 0.7);
-    }
-
-    li:first-of-type a.active,
-    li:first-of-type a:hover {
-        background: none;
     }
 
 }
