@@ -5,6 +5,10 @@ header {
     grid-area: header;
 }
 
+.navbar-nav {
+    text-align: right;
+}
+
 .logo-header {
     width: 100%;
     max-width: 100px;
