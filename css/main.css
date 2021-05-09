@@ -74,7 +74,8 @@ footer {
   margin: 0 1em; }
 
 .carousel-title {
-  font-size: 4em; }
+  font-size: 4em;
+  background-color: rgba(255, 255, 255, 0.2); }
 
 /* ---------- NOVEDADES ---------- */
 section h2 {
@@ -144,6 +145,12 @@ section .cta-news {
   text-align: center;
   text-transform: uppercase; }
 
+.price-products {
+  padding: 0 0 0.5em 0;
+  margin: 0 0;
+  text-align: center;
+  text-transform: uppercase; }
+
 .txt-products {
   text-align: center;
   text-transform: uppercase; }
@@ -152,7 +159,7 @@ section .cta-news {
     font-size: 1.6rem; }
   .txt-products a {
     font-size: 1rem;
-    margin: 0.5em 0 0.5em 0; }
+    margin: 0 0 0.5em 0; }
 
 /* ---------- TEXTS ---------- */
 .pages-titles {
@@ -199,44 +206,31 @@ section .cta-news {
 
 /* ---------- GRID ---------- */
 .container-grid {
+  grid-area: main;
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas: "header header" "title title" "main main" "main main" "footer footer"; }
-  .container-grid .us-main {
-    grid-area: main;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "title title" "first-row first-row" "second-row second-row"; }
-  .container-grid .us-title {
-    grid-area: title;
-    display: flex;
-    justify-content: center; }
-  .container-grid .us-first-row {
-    grid-area: first-row;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2em; }
-  .container-grid .us-second-row {
-    grid-area: second-row;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2em; }
-  .container-grid .us-text-left {
-    max-width: 50%;
-    text-align: justify; }
-  .container-grid .img-right {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%; }
-  .container-grid .img-left {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%; }
-  .container-grid .us-text-right {
-    max-width: 50%;
-    text-align: justify; }
+  justify-content: center;
+  grid-template-areas: "title" "first-row" "second-row" "third-row" "fourth-row"; }
+
+.us-title {
+  grid-area: title; }
+
+.us-text-left {
+  grid-area: first-row; }
+
+.img-right {
+  grid-area: second-row;
+  display: flex;
+  flex-direction: row;
+  max-width: 50%; }
+
+.img-left {
+  grid-area: fourth-row;
+  display: flex;
+  flex-direction: row;
+  max-width: 50%; }
+
+.us-text-right {
+  grid-area: third-row; }
 
 /* ---------- ASSETS ---------- */
 .cta {

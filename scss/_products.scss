@@ -36,6 +36,17 @@
 
 }
 
+.price-products {
+    padding: 0 0 0.5em 0;
+    margin: 0 0;
+
+    text: {
+        align: center;
+        transform: uppercase;
+    }
+
+}
+
 .txt-products {
     text: {
         align: center;
@@ -50,7 +61,7 @@
 
     a {
         font-size: 1rem;
-        margin: 0.5em 0 0.5em 0;
+        margin: 0 0 0.5em 0;
     }
 
 }
