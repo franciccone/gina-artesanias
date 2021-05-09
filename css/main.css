@@ -4,8 +4,7 @@
 /* ---------- HEADER ---------- */
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap");
 header {
-  padding: 0.6em 0.6em;
-  grid-area: header; }
+  padding: 0.6em 0.6em; }
 
 .navbar-nav {
   text-align: right; }
@@ -30,11 +29,7 @@ header {
 
 /* ---------- FOOTER ---------- */
 footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0.6em 0.6em;
-  grid-area: footer; }
+  padding: 0.6em 0.6em; }
   footer section {
     padding: 1em 0; }
   footer img {
@@ -119,7 +114,7 @@ section .cta-news {
   font-size: 3em; }
 
 .news-title-section {
-  margin: 0.5em 0; }
+  margin: 0.3em 0 0 0; }
 
 /* ---------- PRODUCTOS ---------- */
 .container-products {
@@ -183,7 +178,7 @@ section .cta-news {
 
 /* ---------- TEXTS ---------- */
 .pages-titles {
-  margin: 1.5em 0; }
+  margin: 0.5em 0; }
 
 .long-text {
   display: flex;
@@ -282,3 +277,8 @@ html {
 /* ---------- OTHER ---------- */
 .center {
   text-align: center; }
+
+/* ---------- MEDIA QUERIES ---------- */
+@media screen and (max-width: 992px) {
+  .news-title, .news-title-section, .pages-titles {
+    font-size: 2.5em; } }
