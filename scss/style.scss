@@ -4,8 +4,8 @@
 @import "hero";
 @import "novedades";
 @import "products";
+@import "nosotros";
 @import "texts";
-@import "grids";
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
 
 /* ---------- ASSETS ---------- */
@@ -85,7 +85,7 @@ html {
             font-size: 1.5rem;
         }
 
-        p, li, a {
+        li, a {
             font-size: 1.3rem;
             padding: 0 1em;
         }

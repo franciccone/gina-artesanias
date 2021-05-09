@@ -1,0 +1,26 @@
+/* ---------- NOSOTROS ---------- */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.us-title {
+    text-align: center;
+}
+
+.img-us {
+    max-width: 100%;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em 1em 1em;
+
+    img {
+        max-width: 100%;
+        width: fit-content;
+    }
+
+}
