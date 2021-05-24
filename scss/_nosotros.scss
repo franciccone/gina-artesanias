@@ -1,29 +1,8 @@
 /* ---------- NOSOTROS ---------- */
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .us-title {
     text-align: center;
 }
-
-// .img-us {
-//     max-width: 100%;
-//     width: fit-content;
-//     justify-content: center;
-//     align-items: center;
-//     margin: 0 1em 1em 1em;
-
-//     img {
-//         max-width: 100%;
-//         width: fit-content;
-//     }
-
-// }
 
 .custom-us {
     padding: 0 0;
@@ -41,29 +20,4 @@
         justify: inter-word;
     }
 
-}
-
-.square-1 {
-    border: 2px solid red;
-}
-
-.square-2 {
-    border: 2px solid blue;
-}
-
-.square-3 {
-    border: 2px solid green;
-    margin: 0 0.1em 1em 0.1em;
-}
-
-.square-4 {
-    border: 2px solid orange;
-}
-
-.square-5 {
-    border: 2px solid pink;
-}
-
-.square-6 {
-    border: 2px solid brown;
 }
