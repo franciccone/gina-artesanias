@@ -246,6 +246,9 @@ html {
 .center {
   text-align: center; }
 
+.contact-body {
+  height: 100vh; }
+
 /* ---------- MEDIA QUERIES ---------- */
 @media screen and (max-width: 992px) {
   .carousel-title, .news-title, .news-title-section, .pages-titles {
