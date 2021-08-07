@@ -26,7 +26,6 @@ Repository: [See](https://github.com/franciccone/gina-artesanias)
 
 Live Preview: [See](https://franciccone.github.io/gina-artesanias/)
 
-
 ## Author
 
 [Francisco Ciccone](https://github.com/franciccone)
