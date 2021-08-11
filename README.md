@@ -4,7 +4,7 @@
 
 ## Description
 
-This is the first version of a fictional E-Commerce project for Gina Artesanías, a shop with hand-made products for babies and kids, as part of the Web Development project for [Coderhouse](https://www.coderhouse.es/).
+This is the first version of an E-Commerce project for Gina Artesanías, a shop with hand-made products for babies and kids, as part of the Web Development project for [Coderhouse](https://www.coderhouse.es/).
 
 It was my first Web Development project, where I learned how to use HTML5 and CSS3, plus SASS and Bootstrap.
 
