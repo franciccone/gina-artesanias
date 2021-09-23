@@ -28,4 +28,4 @@ Live Preview: [See](https://franciccone.github.io/gina-artesanias/)
 
 ## Author
 
-[Francisco Ciccone](https://github.com/franciccone)
+[Francisco Ciccone](https://franciccone.github.io/portfolio/)
